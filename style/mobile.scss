@@ -1,0 +1,345 @@
+
+// tablet
+header{
+    #navbar{
+        flex-direction: column;
+        h1{
+            margin-bottom: 2rem;
+        }
+        ul{
+            margin-bottom: 3rem;
+            li{
+                margin-left: 1.5rem;
+                a{
+                    font-size: 1.3rem;
+                }
+            }
+        }
+        .btn{
+            font-size: 1rem;
+            margin-left: 0;
+            padding: 20px 50px;
+        }
+    }
+    #showcase{
+        .aling-center{
+            text-align: center;
+            margin-top: 2rem;
+            .side-bar{
+                justify-content: center;
+                h4{
+                 color: #555;
+                }
+            }
+            h1{
+                color: #555;
+            }
+            p{
+                color: #000;
+            }
+            .btn-last{
+                font-size: 1rem;
+                padding: 20px 50px;
+            }
+        }
+    }
+}
+
+ //section-1 features
+ #features{
+    padding: 2rem 2rem;
+    .text-center{
+        padding: 3rem 0;
+        h3{
+            font-size: 1.2rem;
+        }
+        h1{
+            font-size: 3rem;
+        }
+    }  
+    .features-box{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0;
+        text-align: center;
+    }
+
+} 
+
+ // section-2 gallery
+ #gallery{
+    .info-gallery{
+        grid-template-columns: 1fr;
+        text-align: center;
+        .side-bar{
+           justify-content: center;
+        }
+        .three-btn{
+            margin-bottom: 4rem;
+        }
+    }
+
+}
+
+   // section-2 gallery
+   #gallery{
+    .info-gallery{
+        .text-side{
+            h5{
+                font-size: 1rem;
+            }
+            h1{
+                font-size: 3rem;
+            }
+            p{
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+}
+
+// section-3 testimonlais
+#testimonlais{
+    .info-testimonlais{
+        grid-template-columns: 1fr;
+        .items-box{
+            padding-top: 0rem;
+            .box-1{
+                position: unset;
+                flex-direction: column;
+                .text{
+                    text-align: center;
+                }
+    
+            }
+        }
+        .text-box{
+            margin-left: 0;
+            text-align: center;
+            .side-bar{
+                justify-content: center;
+            }    
+        }
+        .four-btn{
+            text-align: center;
+        }
+      
+    }
+}
+
+   
+// section-5 pricing
+#pricing{
+    .container{
+        .text-center{
+            padding-bottom: 7rem;
+            .side-bar{
+                h5{
+                    font-size: 1rem;
+                }
+            }
+            h1{
+                font-size: 3rem;
+            }
+            p{
+                font-size: 1.2rem;
+            }
+        }
+        .items{
+            grid-template-columns: 1fr;
+            position: unset;
+            text-align: center;
+        }
+    }
+    
+}
+    
+// footer
+#main-footer{
+    .bg-color{
+        .items{
+            grid-template-columns: repeat(2, 1fr);
+            text-align: center;
+            padding-top: 7rem;
+            padding-bottom: 3rem;
+            .item{
+                .side-text{
+                    justify-content: center;
+                }
+                i{
+                    font-size: 10px;
+                }
+            } 
+        }
+
+    }
+    
+}
+
+
+// mobile responsive
+@media (max-width: 500px){
+    header{
+        #navbar{
+            ul{
+                margin-bottom: 3rem;
+                li{
+                    margin-left: 1rem;
+                    a{
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+        #showcase{
+            .aling-center{
+                margin-top: 5rem;
+                .side-bar{
+                    h4{
+                     font-size: 1rem;
+                     color: #555;
+                    }
+                }
+                h1{
+                    font-size: 3rem;
+                    color: #555;
+                }
+                p{
+                    font-size: 1rem;
+                    color: #000;
+                }
+            }
+        }
+    }
+    
+    
+    //section-1 features
+    #features{
+        .text-center{
+            h3{
+                font-size: 1.2rem;
+            }
+            h1{
+                font-size: 3rem;
+            }
+        }  
+        .features-box{
+            grid-template-columns: 1fr;
+        }
+    
+    } 
+    
+    
+    // section-2 gallery
+    #gallery{
+        .info-gallery{
+            .text-side{
+                h5{
+                    font-size: 1rem;
+                }
+                h1{
+                    font-size: 3rem;
+                }
+                p{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    
+    }
+    
+    // section-3 testimonlais
+    #testimonlais{
+        .info-testimonlais{
+            .items-box{
+                .box-1{
+                    .text{
+                        text-align: center;
+                    }
+        
+                }
+                .box{
+                    // flex-direction: column;
+                    img{
+                        width: 15%;
+                        height: 15%;
+                    }
+                }
+            }
+            .text-box{
+                .side-bar{
+                    h5{
+                        font-size: 1rem;
+                    }
+                }
+                h1{
+                    font-size: 3rem;
+                }
+                p{
+                    font-size: 1.2rem;
+                }
+            }
+          
+        }
+    }
+    
+    
+    // section-4 works
+    #works{
+        .bg-primary{
+            .text-center{
+                .side-bar{
+                    h5{
+                        font-size: 1rem;
+                    }
+                }
+                h1{
+                    font-size: 3rem;
+                }
+                p{
+                    font-size: 1.2rem;
+                }
+            }
+            .items{
+                grid-template-columns: 1fr;
+               .box{
+                margin-bottom: 3rem;
+               }
+            }
+        }
+        
+    }
+
+
+    // section-5 pricing
+    #pricing{
+        .container{
+            .items{
+                .item{
+                    .btn-1{
+                        .btn{
+                            padding: 15px 40px;
+                        }
+                    }
+                }
+                .item-2{
+                    .btn-2{
+                        .btn-color{
+                            padding: 15px 40px;  
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // footer
+    #main-footer{
+        .bg-color{
+            .items{
+                grid-template-columns: 1fr;
+            }
+
+        }
+       
+    }
+}
